@@ -1,7 +1,7 @@
 import pyautogui
 import time
-import pysimplegui
 
+time.sleep(5)
 pyautogui.hotkey ('win', 'd')
 pyautogui.press('win')
 time.sleep(2)
@@ -9,24 +9,27 @@ pyautogui.write('brave')
 time.sleep(2)
 pyautogui.press('enter')
 time.sleep(1)
-pyautogui.write("https://www.mozilla.org/pt-BR/firefox/new/")
+pyautogui.write("https://www.google.com/intl/pt-BR/chrome/")
 time.sleep(2)
 pyautogui.press('enter')
-pyautogui.moveTo(1426, 130)
+#maximizar janela
+pyautogui.moveTo(1422, 131)
 time.sleep(1)
 pyautogui.click()
-pyautogui.moveTo(300, 760)
+#clicar download
+pyautogui.moveTo(944, 644)
 time.sleep(2)
 pyautogui.click()
-pyautogui.moveTo(766, 561)
+#salvar como
+pyautogui.moveTo(748, 559)
 time.sleep(3)
 pyautogui.click()
 time.sleep(5)
+#executando instalador
 pyautogui.moveTo(160, 979)
 pyautogui.click()
 time.sleep(5)
-pyautogui.moveTo(801, 694)
-pyautogui.click()
+
 
 
 
